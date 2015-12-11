@@ -1,0 +1,20 @@
+{
+  "name": "eph-wordcount",
+  "main": "./lib/eph-wordcount",
+  "version": "0.0.0",
+  "description": "My first Atom package",
+  "keywords": [
+    "word counter",
+    "tutorial"
+  ],
+  "activationCommands": {
+    "atom-workspace": "eph-wordcount:toggle"
+  },
+  "repository": "https://github.com/atom/eph-wordcount",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
