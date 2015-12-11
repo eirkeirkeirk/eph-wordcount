@@ -21,6 +21,6 @@ class WordCounterView
   getElement: ->
     @element
 
-  setCount: (count) ->
-    displayText = "There are #{count} words"
+  setCount: (words, characters, lines) ->
+    displayText = "There are #{words} words #{characters} characters #{lines} lines"
     @element.children[0].textContent = displayText

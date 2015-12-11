@@ -32,5 +32,7 @@ module.exports = WordCounter =
     else
       editor = atom.workspace.getActiveTextEditor();
       words = editor.getText().split(/\s+/).length
-      @wordCounterView.setCount(words)
+      characters = editor.getText().split("").length
+      lines = editor.getText().split(/\n/).length
+      @wordCounterView.setCount(words, characters, lines)
       @modalPanel.show()
