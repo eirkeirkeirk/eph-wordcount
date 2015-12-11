@@ -22,5 +22,6 @@ class WordCounterView
     @element
 
   setCount: (words, characters, lines) ->
+    console.log "called setCount"
     displayText = "There are #{words} words #{characters} characters #{lines} lines"
     @element.children[0].textContent = displayText

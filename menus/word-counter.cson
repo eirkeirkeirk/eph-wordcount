@@ -13,7 +13,7 @@
       'label': 'Word Count'
       'submenu': [
         {
-          'label': 'Toggle'
+          'label': 'Show/Hide Counts'
           'command': 'eph-wordcount:toggle'
         }
       ]
